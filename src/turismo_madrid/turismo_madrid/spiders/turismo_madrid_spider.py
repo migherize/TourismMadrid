@@ -24,7 +24,7 @@ class TourismMadridSpider(scrapy.Spider):
     name = "turismo_madrid_spider"
     allowed_domains = ["turismomadrid.es"]
     start_urls = ["https://turismomadrid.es/es/rutas.html"]
-
+    successful = True
     custom_settings = {
         "ROBOTSTXT_OBEY": False,
         "AUTOTHROTTLE_ENABLED": True,
