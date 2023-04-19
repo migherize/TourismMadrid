@@ -136,3 +136,4 @@ local
 .lock
 Pipfile
 Pipfile.lock
+mongo-data
