@@ -143,3 +143,37 @@ print(
         }
     )
 )
+
+
+{
+    "route_name": "Nombre de la ruta",
+    "title": "Titulo de la pagina de ruta",
+    "distance": "70.7km",
+    "time": "106h",
+    "stages": 5,
+    "description": "La descripcion de la ruta",
+    "image": "url_imagen_ruta",
+    "map_kmz": "url_map_kmz",
+    "map_gpx": "url_map_gpx",
+    "list_stages": [
+        {
+            "state_name": "Alcalá de Henares",
+            "route_number": "RUTA 1",
+            "details": "Detalle de la ruta",
+            "itinerary": [{}]
+        }
+    ]
+}
+
+# main
+https://turismomadrid.es/es/rutas/nivel1/2.html
+
+# Stages
+https://turismomadrid.es/es/rutas/nivel2/3.html?etapa=1
+    # itineraios
+    https://turismomadrid.es/es/rutas/nivel3/15.html?ruta=1&etapa=1
+    https://turismomadrid.es/es/rutas/nivel3/16.html?ruta=2&etapa=1
+
+https://turismomadrid.es/es/rutas/nivel2/9.html?etapa=2
+
+https://turismomadrid.es/es/rutas/nivel2/18.html?etapa=3
