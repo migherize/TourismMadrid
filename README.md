@@ -121,8 +121,13 @@ Puedes verlo en Mongo Express http://localhost:8081/
     scrapy crawl turismo_madrid_spider
     ```
 
-    * Adicional: ejecutar Endpoint para visualizar la data guardada en mongo.
+    * Adicional: 
+        * Ejecutar Endpoint para visualizar la data guardada en mongo.
     ![FastApi](/assets/images/get_database.png)
+        * Bitacora: en la carpeta /data/ existe un archivo llamada **items.json** para visualizar comodamente la info raspada.
+        * Mongo Express: para visualizar los documentos individualmente en cada recollection http://localhost:8081/
+        
+
 ## Test
 
 Para realizar test de prueba, en la carpeta /test/ ejecutar:
