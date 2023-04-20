@@ -8,11 +8,14 @@ import os
 import subprocess
 from fastapi import FastAPI
 from pymongo import MongoClient
-from ast import literal_eval
 
-app = FastAPI()
+app = FastAPI(
+    title="API de Turismo Madrid",
+    version="1.0",
+    description="Esta API proporciona información turística de la ciudad de Madrid.",
+)
 
-client = MongoClient("mongodb://admin:password@localhost:27017/")
+client = MongoClient("mongodb://admin:password@mongodb:27017/")
 db = client["RutasMadrid"]
 
 

@@ -71,6 +71,33 @@ MongoDB puede ser una buena opción para proyectos de web scraping en los que se
         ```
         -   PYTHONPATH="$PYTHONPATH:/PATH_YOUR_LOCAL_REPO/"
 
+3. Base de datos
+
+    La aplicación utiliza una base de datos MongoDB para almacenar la información turística de la ciudad de Madrid. La conexión a la base de datos se realiza utilizando el cliente de Python pymongo.
+
+    Para conectarse a la base de datos, se utiliza el siguiente código:
+
+    ```
+    from pymongo import MongoClient
+
+    client = MongoClient("localhost", port=27017, username="admin", password="password")
+        db = client["TurismMadrid"]
+        collection_router = db["router"]
+        collection_etapas = db["stages"]
+        collection_itinerarios = db["itineraty"]
+    ```
+
+    La Base de datos tiene 3 colecciones:
+
+    * collection_router (pymongo.collection.Collection): Colección de MongoDB para almacenar la información de los routers.
+    * collection_etapas (pymongo.collection.Collection): Colección de MongoDB para almacenar la información de las etapas.
+    * collection_itinerarios (pymongo.collection.Collection): Colección de MongoDB para almacenar la información de los itinerarios.
+
+Nota: los contenedores docker ya tiene port = 27017 por defecto para la comunicacion entre la araña y las collecciones mongo.
+
+Puedes verlo en Mongo Express http://localhost:8081/
+
+
 ## Uso
 1. Ejecutar el proyecto
 
@@ -79,44 +106,23 @@ MongoDB puede ser una buena opción para proyectos de web scraping en los que se
     ```
 
 2. Ejecutar el proyecto scrapy
-    
-    Para ello debemos tener instalado el sistema de gestion de paquetes pip.
+    * Abrir swagger de FastApi
     ```
-    pip install --upgrade pip
+        http://localhost:8080/docs
+        Ejecutar endpoint: /spider-crawl
     ```
-
-    Luego con un gestor de entornos virtuales construiremos un entorno virtual para el proyecto, con el gestor de tu preferencia.
-    
-    * Entorno con [Pipenv](https://pypi.org/project/pipenv/):
-        ```
-            pip install pipenv
-
-            pipenv install
-            
-            pipenv shell
-
-            pipenv install -r requirements.txt
-        ```
-
-    * Entorno con [Virtualenv](https://pypi.org/project/virtualenv/):
-        ```
-        python -m venv TourismMadrid
-
-        source TourismMadrid/bin/activate
-
-        cd TourismMadrid
-
-        pipenv install -r requirements.txt
-        
-        ```
-    
+    * curl:
+    ```
+    curl -K GET http://localhost:8080/crawler_spider_crawl_get
+    ```
+    * comando scrapy:
     ```
     cd src/turismo_madrid
-
     scrapy crawl turismo_madrid_spider
     ```
 
-
+    * Adicional: ejecutar Endpoint para visualizar la data guardada en mongo.
+    ![FastApi](/assets/images/get_database.png)
 ## Test
 
 Para realizar test de prueba, en la carpeta /test/ ejecutar:
