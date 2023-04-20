@@ -52,7 +52,7 @@ MongoDB puede ser una buena opción para proyectos de web scraping en los que se
 ## Instalación
 1. Clonar el repositorio
     ```
-    git clone https://github.com/migherize/Reino_del_Trebol.git
+    git clone https://github.com/migherize/TourismMadrid.git
     ```
 
 2. Variables de entorno .env
