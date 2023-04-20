@@ -10,6 +10,7 @@ from turismo_madrid.items import TurismoMadridItem
 from scrapy.utils.response import open_in_browser
 from turismo_madrid.utils import extractor_info_with_regex
 from turismo_madrid.constants import constants_and_all_xpath
+from bs4 import BeautifulSoup
 
 
 class TurismoMadridSpiderSpider(scrapy.Spider):
@@ -52,24 +53,11 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
 
     def parse(self, response):
         all_routes = response.xpath('//a[contains(@class, "enlace-ruta")]')
-
         if not all_routes:
             self.logger.warning("No existen enlaces para realizar la busqueda")
             return None
 
         self.logger.info("Existen enlaces para realizar la busqueda")
-
-        """
-        first_items_extractor = {
-            "url_rout": "",
-            "url_main_image": "",
-            "main_header": "",
-            "main_description": "",
-            "url_image_movil": "",
-            "distancia": "",
-            "duracion": "",
-        }
-        """
 
         for rout_table in all_routes:
             items = TurismoMadridItem()
@@ -138,29 +126,28 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
                 data.strip() for data in info_rout if data.strip() != ""
             ]
             # stage
-            # print("items_stage", items_stage)
-
             list_stage.append(items_stage)
-            """
-            yield scrapy.Request(
-                items_stage["url_stage"],
-                callback=self.parse_rout,
-                meta={
-                    "items_stage": items_stage,
-                },
-                dont_filter=True,
-            )
-            """
 
         items_main["list_stage"] = list_stage
-        yield items_main
+
+        for stages in items_main["list_stage"]:
+            yield scrapy.Request(
+                url=stages["url_stage"],
+                callback=self.parse_rout,
+                meta={
+                    "url": stages["url_stage"],
+                    "items_main": items_main,
+                },
+            )
+        # yield items_main
 
         # for link in items_main["list_stage"]:
         #    print("link", link["url_stage"])
 
     def parse_rout(self, response):
-        items_stage = response.meta.get("items_stage")
-        print("voy", items_stage)
+        url = response.meta.get("url")
+        items_main = response.meta.get("items_main")
+        print("voy")
 
         third_items_extractor = {}
         div_description = response.xpath('//div[@class="item_fields"]/div/div[p]')
@@ -185,6 +172,65 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
             list_itinerario.append(items)
 
         third_items_extractor["info_itinerarios"] = list_itinerario
-        items_stage["info_itinerarios"] = third_items_extractor["info_itinerarios"]
-        print("items_stage", items_stage)
-        yield items_stage
+
+        for stages in items_main["list_stage"]:
+            if url == stages["url_stage"]:
+                stages["info_itinerarios"] = third_items_extractor["info_itinerarios"]
+                for url_itinerario in stages["info_itinerarios"]:
+                    print(
+                        'url_itinerario["url_itinerario"]',
+                        url_itinerario["url_itinerario"],
+                    )
+                    yield scrapy.Request(
+                        url=url_itinerario["url_itinerario"],
+                        callback=self.parse_itineraty,
+                        meta={
+                            "url_itineraty": url_itinerario["url_itinerario"],
+                            "items_main": items_main,
+                        },
+                    )
+
+        # yield items_main
+
+    def parse_itineraty(self, response):
+        url = response.meta.get("url_itineraty")
+        print("voy parse_itineraty", url)
+        items_main = response.meta.get("items_main")
+
+        list_place = []
+
+        # dict_place["title"] = response.xpath(
+        #    '//h1[@class="nivel1-titulo"]/text()'
+        # ).get()
+
+        all_info_pase_to_pase = response.xpath('//*[@id="component"]/div/div[6]/div')
+        for one_to_one in all_info_pase_to_pase:
+            dict_place = {}
+
+            information = one_to_one.xpath("./div").getall()
+
+            titulo_place = one_to_one.xpath(
+                "./div[1]/h3[@class='titulo-punto']/div[@id='texto']/text()"
+            ).getall()
+            dict_place["titulo_place"] = titulo_place[0]
+
+            description_place_all = one_to_one.xpath("./div[1]/div/p").getall()
+            for string in description_place_all:
+                soup = BeautifulSoup(string, "html.parser")
+                description_place = soup.get_text()
+
+            dict_place["description_place"] = description_place
+
+            all_main_image = information[1]
+            match = re.search(r"url\('(.+?)'\)", all_main_image)
+            url_main_image = match.group(1)
+            dict_place["url_main_image"] = url_main_image
+
+            list_place.append(dict_place)
+
+        for stages in items_main["list_stage"]:
+            for iter in stages["info_itinerarios"]:
+                if url == iter["url_itinerario"]:
+                    iter["place"] = list_place
+
+        yield items_main
