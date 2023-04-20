@@ -1,0 +1,1100 @@
+[
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/2.html",
+        "title": "Rutas por el Patrimonio Mundial de la UNESCO",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-coche-ruta.png",
+        "distance": "78,7 Km",
+        "time": "106 Horas",
+        "stages": "4 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/mapa_Patrimonio_Humanidad.jpg",
+        "description": "La Comunidad de Madrid alberga cinco lugares incluidos en la lista de Patrimonio Mundial de la UNESCO, cuatro de los cuales son los enclaves urbanos de Alcal\u00e1 de Henares, Aranjuez, Madrid y San Lorenzo de El Escorial. Te proponemos descubrirlos mediante atractivos itinerarios a pie o en bicicleta,\u00a0recorriendo lugares singulares que explican su pertenencia a este selecto grupo que ostenta el mayor reconocimiento de la UNESCO en materia de patrimonio cultural.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/Patrimonio-de-la-Humanidad-en-la-Comunidad-de-Madrid.",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Patrimonio-de-la-Humanidad-en-la-Comunidad-de-Madrid.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/3.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/universidad-alcaladehenares-hf-art-nov-2018.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Alcal\u00e1 de Henares",
+                    "12,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/9.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/_HFV2784.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Aranjuez",
+                    "10,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/18.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/_HFV2660-Pano.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "San Lorenzo de El Escorial",
+                    "34,9 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/123.html?etapa=4",
+                "url_image_stage": "https://turismomadrid.es/images/MADRID_PALACIO_REAL_Y_LA_ALMUDENAiStock-527174739.jpg",
+                "info_rout": [
+                    "Ruta 4",
+                    "Madrid",
+                    "17,5 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/10.html",
+        "title": "Rutas de Castillos",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-coche-ruta.png",
+        "distance": "468 Km",
+        "time": "48 Horas",
+        "stages": "2 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/mapa_Ruta_Castillos.jpg",
+        "description": "Fortificaciones, castillos, atalayas, un viaje al pasado de la Comunidad de Madrid, una incursi\u00f3n en la Edad Media para entender la historia de la regi\u00f3n y poner en valor el gran patrimonio que conforma la 'Red de Castillos de la Comunidad de Madrid'. Las rutas de castillos ofrecen el plan perfecto para los amantes del patrimonio cultural y de la belleza del entorno natural, que seguro entusiasmar\u00e1n a grandes y peque\u00f1os.\u00a0",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/Rutas-de-Castillos-de-la-Comunidad-de-Madrid.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Rutas-de-Castillos-de-la-Comunidad-de-Madrid.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/46.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/1._Ruta_Este_de_los_Castillos_de_Madrid.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Ruta Este de los castillos de la Comunidad de Madrid",
+                    "217 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/47.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/2._Ruta_Oeste_de_los_Castillos_de_Madrid.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Ruta Oeste de los castillos de la Comunidad de Madrid",
+                    "251 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/9.html",
+        "title": "Rutas de Monasterios y Conventos",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-coche-ruta.png",
+        "distance": "441 Km",
+        "time": "39 Horas",
+        "stages": "10 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/MapaFinalMonasterio.png",
+        "description": "Proponemos una ruta a lo largo de 400 km por la Comunidad de Madrid que nos llevar\u00e1 a conocer el gran patrimonio mon\u00e1stico de la Regi\u00f3n y nos har\u00e1 comprender su dimensi\u00f3n humana y religiosa, paseando por sus naves, transitando por sus capillas o, incluso, por sus claustros con sus retazos de naturaleza, lo que supone no solo transportarse a otro momento, a otra dimensi\u00f3n, sino un ejercicio de reposo en nuestra ajetreada existencia y un reconocimiento a quienes lo hicieron posible y lo ornaron con semejantes construcciones.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/20210325075315-17089-data.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Ruta-de-Monasterios-y-Conventos-de-la-Comunidad-de-Madrid.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/36.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/alcala_rutas_articulo-01.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Alcal\u00e1 de Henares",
+                    "3,3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/37.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/Contenido/descubre/vegas/iglesia-san-andres-villarejo.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "De Rivas a Villarejo",
+                    "70 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/38.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/3._Villarejo_de_Salvane\u0301s-Valdemoro.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "De Colmenar de Oreja a Valdemoro",
+                    "68,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/39.html?etapa=4",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/4._Valdemoro-Boadilla_del_Monte.jpg",
+                "info_rout": [
+                    "Ruta 4",
+                    "De Cubas de la Sagra a Pelayos de la Presa",
+                    "144 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/40.html?etapa=5",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/5.-Pelayos-Torrelaguna.jpg",
+                "info_rout": [
+                    "Ruta 5",
+                    "De San Lorenzo de El Escorial a Torrelaguna",
+                    "149,7 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/41.html?etapa=6",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/6._Madrid_Descalzas_Reales-La_Encarnacio\u0301n.jpg",
+                "info_rout": [
+                    "Ruta 6",
+                    "Las Descalzas y La Encarnaci\u00f3n",
+                    "0,6 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/42.html?etapa=7",
+                "url_image_stage": "https://turismomadrid.es/images/7._Madrid_San_Francisco_El_Grande-Corpus_Christi.jpg",
+                "info_rout": [
+                    "Ruta 7",
+                    "De San Francisco el Grande al Sant\u00edsimo Sacramento",
+                    "1,4 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/43.html?etapa=8",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/8._Madrid_San_Jero\u0301nimo_el_Real-San_Ildefonso_y_San_Juan_de_la_Mata.jpg",
+                "info_rout": [
+                    "Ruta 8",
+                    "De San Jer\u00f3nimo a Santa Isabel",
+                    "1,4 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/44.html?etapa=9",
+                "url_image_stage": "https://turismomadrid.es/images/9._Convento_de_la_Visitacion_de_Ntra_Sen\u0303ora.jpg",
+                "info_rout": [
+                    "Ruta 9",
+                    "Del Real de la Concepci\u00f3n a la Visitaci\u00f3n de Nuestra Se\u00f1ora",
+                    "1,3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/45.html?etapa=10",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/10.Convento_Comendadoras_Santiago_el_Mayor.jpg",
+                "info_rout": [
+                    "Ruta 10",
+                    "De Nuestra Se\u00f1ora de la Concepci\u00f3n a las Comendadoras de Santiago",
+                    "1,5 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/8.html",
+        "title": "Rutas Gastron\u00f3micas",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-caminando-rutas.png",
+        "distance": "9,2 Km",
+        "time": "21 Horas",
+        "stages": "2 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/mapa_Ruta_Gastronomicas.jpg",
+        "description": "Algo est\u00e1 pasando en el mundo de la gastronom\u00eda en la Comunidad de Madrid. Nuevos espacios gastron\u00f3micos nacen cada poco tiempo en la ciudad, comercios especializados, escuelas de cocina, rutas gastron\u00f3micas y, por supuesto, establecimientos, conforman un panorama vivo y sumamente atractivo para el visitante. En Madrid conviven las tabernas y restaurantes centenarios junto a los modernos gastrobares y enotecas, los restaurantes de ajustado men\u00fa del d\u00eda con la vanguardia y la fusi\u00f3n m\u00e1s actual. Y, por supuesto, Madrid posee una de las mejores ofertas de tapas, reflejo de nuestro estilo de vida mediterr\u00e1neo, que se han convertido en una verdadera se\u00f1a de identidad.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/Rutas-Gastron--micas-en-la-ciudad-de-Madrid.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Rutas-Gastron--micas-en-la-ciudad-de-Madrid.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/32.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/shutterstock_1079364.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Rutas de Restaurantes, Caf\u00e9s y Bodegas Centenarias",
+                    "9,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/35.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/_HFV0705.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Rutas de tapas",
+                    "25,5 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/7.html",
+        "title": "Rutas del Barroco",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-caminando-rutas.png",
+        "distance": "6,4 Km",
+        "time": "7 Horas",
+        "stages": "3 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/10.3ItinerarioBarrocoPorelBarriodeLasLetras.jpg",
+        "description": "Madrid tambi\u00e9n es Barroca. Estas rutas geolocalizadas est\u00e1n te\u00f1idas de siglo de oro, de naturalismo, de riqueza ornamental pero, al tiempo, de retazos escurialenses y sobriedad castellana. El estilo Barroco en Madrid, en la arquitectura de los siglos XVII y XVIII, ha recorrido la capital y diversos municipios de la Comunidad de Madrid con manifestaciones constructivas, sea en edificios civiles o religiosos, derivadas de figuras hist\u00f3ricas del calibre de Juan G\u00f3mez de Mora, Francisco Bautista, Pedro S\u00e1nchez o Alonso Carbonell.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/El-Barroco-en-la-ciudad-de-Madrid.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/El-Barroco-en-la-ciudad-de-Madrid.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/31.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/10.1RutadelBarrocoenMadrid_2.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "El barrroco en el Madrid de los Austrias",
+                    "2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/33.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/10.2RutadelBarrocoenMadrid.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "El barroco en los barrios de Palacio, Universidad y Justicia",
+                    "2,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/34.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/10.3ItinerarioBarrocoPorelBarriodeLasLetras.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "El barroco en los barrios de Cortes y Jer\u00f3nimos",
+                    "2,3 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/6.html",
+        "title": "Rutas Hist\u00f3ricas",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-caminando-rutas.png",
+        "distance": "149,2 Km",
+        "time": "60 Horas",
+        "stages": "4 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/mapa_Patrimonio_Industrial.jpg",
+        "description": "Las diferentes civilizaciones, acontecimientos hist\u00f3ricos y los personajes que han forjado el territorio que hoy conforma la Comunidad de Madrid, han dejado a su paso una enorme cantidad de recursos visitables. Los itinerarios que proponemos nos permitir\u00e1n rememorar y profundizar en los sucesos de la historia que los hicieron posible.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/rutas-patrimonio-industrial.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Rutas-de-Patrimonio-Industrial.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/95.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/_CMK5407.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Rutas de la Guerra Civil"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/99.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/Mercado-de-San-Miguel_exterior_Czuko-Williams.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Rutas de Patrimonio Industrial"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/100.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/Jarama_Torrelaguna2.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "Ruta del IV Centenario de la Canonizaci\u00f3n de San Isidro",
+                    "85,5 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/107.html?etapa=4",
+                "url_image_stage": "https://turismomadrid.es/images/500e8ec1-e871-4066-888b-47c0fa4fb534.jpeg",
+                "info_rout": [
+                    "Ruta 4",
+                    "Rutas Americanas en la Comunidad de Madrid"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/5.html",
+        "title": "Rutas Literarias",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-caminando-rutas.png",
+        "distance": "19,9 Km",
+        "time": "12 Horas",
+        "stages": "2 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/mapa_Rutas_literarias.jpg",
+        "description": "La Comunidad de Madrid es fuente de inspiraci\u00f3n y personaje principal de grandes obras de la literatura as\u00ed como el lugar donde han residido y desarrollado gran parte de su actividad importantes escritores de todos los tiempos. Las Rutas Literarias destacan las impresiones y las experiencias que los mejores literatos tuvieron sobre nuestra regi\u00f3n.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/20210324054924-17089-data.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Rutas-literarias.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/20.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/Rutas-de-Galdos.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Rutas de Gald\u00f3s",
+                    "15,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/21.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/2.Letras_y_Espadas.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Letras y Espadas",
+                    "4,8 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/4.html",
+        "title": "Rutas de Cine y Series",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-caminando-rutas.png",
+        "distance": "47,5 Km",
+        "time": "25 Horas",
+        "stages": "2 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/mapa_Cine_Series.jpg",
+        "description": "La Comunidad de Madrid ha cosechado a lo largo de los a\u00f1os un gran prestigio y tradici\u00f3n como plat\u00f3 de rodaje nacional e internacional. Su excelente ubicaci\u00f3n, as\u00ed como la amplia diversidad de sus localizaciones, convierten a Madrid en destacado escenario de rodajes desde la llegada del cinemat\u00f3grafo a la capital en 1896 y a partir de la segunda mitad del siglo XX, con el productor Samuel Bronston como el gran precursor de Madrid como escenario de las superproducciones de Hollywood de los a\u00f1os 50 y 60.\u00a0",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/Rutas-de-cine-y-series.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Rutas-de-cine-y-series.kmz",
+        "more_info": "http://www.madrid.org/filmmadrid/comunidad-plato-rodaje.html",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/23.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/5.1.Madrid_capital_series.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Madrid, capital de las series.",
+                    "36,3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/24.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/5.2_El_Madrid_Pedro_Almodovar.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Ruta por el Madrid de Pedro Almod\u00f3var",
+                    "11,5 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/3.html",
+        "title": "Rutas por las Villas de Madrid",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-coche-ruta.png",
+        "distance": "14 Km",
+        "time": "23 Horas",
+        "stages": "11 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/mapa-ilustrado-Villas_de_Madrid-01.jpg",
+        "description": "Villas de Madrid es un conjunto de once destinos singulares que destacan por su patrimonio cultural. Se reparten por distintas comarcas de la geograf\u00eda madrile\u00f1a, rodeados de paisajes tan diversos como p\u00e1ramos, campi\u00f1as y alcarrias, piedemontes, lomas y dehesas, as\u00ed como los paisajes de alta monta\u00f1a de Guadarrama y Somosierra. Todos han conseguido mantener su autenticidad rural, ofreciendo adem\u00e1s una infraestructura tur\u00edstica de calidad preparada para satisfacer las necesidades de sus visitantes.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/Villas-de-Madrid.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Villas-de-Madrid.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/4.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/3.Palacio_Goyneche.III.JPG",
+                "info_rout": [
+                    "Ruta 1",
+                    "Nuevo Bazt\u00e1n",
+                    "0,97 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/6.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/Villarejo_de_Salvanes.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Villarejo de Salvan\u00e9s",
+                    "0,79 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/7.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/Colmenar_de_Oreja.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "Colmenar de Oreja",
+                    "1,7 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/8.html?etapa=4",
+                "url_image_stage": "https://turismomadrid.es/images/6.Plaza_Mayor.VII.JPG",
+                "info_rout": [
+                    "Ruta 4",
+                    "Chinch\u00f3n",
+                    "1,7 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/10.html?etapa=5",
+                "url_image_stage": "https://turismomadrid.es/images/4._Plaza_de_Segovia.I.jpg",
+                "info_rout": [
+                    "Ruta 5",
+                    "Navalcarnero",
+                    "1,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/11.html?etapa=6",
+                "url_image_stage": "https://turismomadrid.es/images/3._Castillo_de_la_Coracera.III.jpg",
+                "info_rout": [
+                    "Ruta 6",
+                    "San Mart\u00edn de Valdeiglesias",
+                    "1,6 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/12.html?etapa=7",
+                "url_image_stage": "https://turismomadrid.es/images/2.Castillo_de_los_Mendoza.VII.JPG",
+                "info_rout": [
+                    "Ruta 7",
+                    "Manzanares el Real",
+                    "1,6 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/13.html?etapa=8",
+                "url_image_stage": "https://turismomadrid.es/images/1._Real_Monasterio_de_Sta._Mar\u00eda_del_Paular.III.jpg",
+                "info_rout": [
+                    "Ruta 8",
+                    "Rascafr\u00eda",
+                    "1,4 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/15.html?etapa=9",
+                "url_image_stage": "https://turismomadrid.es/images/Buitrago_de_Lozoya_1b.jpg",
+                "info_rout": [
+                    "Ruta 9",
+                    "Buitrago del Lozoya",
+                    "1,3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/16.html?etapa=10",
+                "url_image_stage": "https://turismomadrid.es/images/10._Santa_Mar\u00eda_Magdalena.II.jpg",
+                "info_rout": [
+                    "Ruta 10",
+                    "Torrelaguna",
+                    "1,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/17.html?etapa=11",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/Patones_ok.jpg",
+                "info_rout": [
+                    "Ruta 11",
+                    "Patones",
+                    "0,62 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/17.html",
+        "title": "Cicloturismo y Slow Tourism",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-bici-ruta.png",
+        "distance": "280,9 Km",
+        "time": "10 Horas",
+        "stages": "4 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/Mapa_CAM_peque\u00f1o.png",
+        "description": "Qui\u00e9n podr\u00eda imaginar que la regi\u00f3n de Madrid es un peque\u00f1o mircocosmos donde hay, adem\u00e1s de extensos espacios urbanos, frondosos pinares y encinares, cumbres alpinas, vi\u00f1edos y olivares, estepas o pueblos encantadores llenos de vida... Madrid ofrece al viajero todo un mundo por descubrir, en un radio m\u00e1ximo de una hora: cinco enclaves declarados Patrimonio de la Humanidad por la UNESCO, un conjunto de 11 \"Villas de Madrid\" que reflejan toda la historia, arquitectura tradicional y encanto de nuestra regi\u00f3n, un entorno natural rico, variado y poco conocido. Los viajeros de Espa\u00f1a y del mundo podr\u00e1n conocernos de un modo sencillo, ecol\u00f3gico, accesible y saludable. Y qu\u00e9 mejor para ello que usar la bici, en un recorrido que conecta todos esos atractivos con la gastronom\u00eda, la artesan\u00eda, las tradiciones y el paisaje.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/106.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/MotoGuadarrama.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Ruta en moto por la sierra de Guadarrama",
+                    "250 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/116.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/BiciBoadilla.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Ruta en bici por el Monte de Boadilla",
+                    "18,4 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/117.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/CicloturismoPolvoranca.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "Ruta en bici por la Polvoranca y Bosque Sur",
+                    "12,5 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/118.html?etapa=4",
+                "url_image_stage": "https://turismomadrid.es/images/PortadaGRCM.jpg",
+                "info_rout": [
+                    "Ruta 4",
+                    "Gran Tour CiclaMadrid",
+                    "420 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/16.html",
+        "title": "Rutas en Familia",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-coche-ruta.png",
+        "distance": "176,6 Km",
+        "time": "80 Horas",
+        "stages": "8 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/mapa_Ruta_Familiares-01.jpg",
+        "description": "Las rutas de turismo en familia nos llevan a conocer el legado hist\u00f3rico y las tradiciones, el conocimiento cient\u00edfico y la educaci\u00f3n medioambiental de forma divertida y entretenida para aprovechar al m\u00e1ximo el tiempo de ocio.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/79.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_1.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "De Galapagar a Guadarrama",
+                    "24 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/80.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_2.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "De Colmenar del Arroyo a San Mart\u00edn de Valdeiglesias",
+                    "22,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/81.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_3.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "De Valdemorillo a Fresnedillas de la Oliva",
+                    "20,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/82.html?etapa=4",
+                "url_image_stage": "https://turismomadrid.es/images/Real_Monasterio_de_Sta._Mar\u00eda_del_Paular_1.jpg",
+                "info_rout": [
+                    "Ruta 4",
+                    "De Pinilla del Valle a Rascafr\u00eda",
+                    "23,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/83.html?etapa=5",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_5.jpg",
+                "info_rout": [
+                    "Ruta 5",
+                    "Parque Warner y laguna de San Juan",
+                    "29,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/84.html?etapa=6",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_6.jpg",
+                "info_rout": [
+                    "Ruta 6",
+                    "Faunia y lagunas de Las Madres",
+                    "18,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/85.html?etapa=7",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_7.jpg",
+                "info_rout": [
+                    "Ruta 7",
+                    "Laguna del Campillo y Parque Europa",
+                    "33,4 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/86.html?etapa=8",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_8.jpg",
+                "info_rout": [
+                    "Ruta 8",
+                    "San Sebasti\u00e1n de los Reyes y Alcobendas",
+                    "15,3 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/13.html",
+        "title": "Rutas de Enoturismo",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-coche-ruta.png",
+        "distance": "82,4 Km",
+        "time": "56 Horas",
+        "stages": "6 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/mapa_Rutas_Enoturismo.jpg",
+        "description": "La Comunidad de Madrid, con denominaci\u00f3n de origen propia, dividida en cuatro subzonas, comienza a destacar como destino ideal para el enoturismo. A menos de una hora de la capital, encontramos una gran variedad de paisajes, bodegas y experiencias alrededor del vino, porque conocer el vino desde sus ra\u00edces es sumergirse en la cultura y formas de vida de un territorio y sus habitantes.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/20210423005205-03051-data.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Nuevo-Paisajes-del-Vino.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/71.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/Portada/Recurso_1.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Enoturismo en Venturada y El Molar",
+                    "10 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/72.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/Portada/Nuevo_Bazta\u0301n1_.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "Enoturismo en Nuevo Bazt\u00e1n y Tielmes",
+                    "20 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/73.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/Portada/Recurso_4.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "Enoturismo en la Comarca de Las Vegas",
+                    "29,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/74.html?etapa=4",
+                "url_image_stage": "https://turismomadrid.es/images/Portada/Recurso5.jpg",
+                "info_rout": [
+                    "Ruta 4",
+                    "Enoturismo en Arganda del Rey y Campo Real",
+                    "8,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/75.html?etapa=5",
+                "url_image_stage": "https://turismomadrid.es/images/Portada/Palacio_De_Villena_.jpg",
+                "info_rout": [
+                    "Ruta 5",
+                    "Enoturismo en Cadalso de los Vidrios",
+                    "5,5 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/76.html?etapa=6",
+                "url_image_stage": "https://turismomadrid.es/images/Colmenar_de_Oreja.jpg",
+                "info_rout": [
+                    "Ruta 6",
+                    "Enoturismo en Chinch\u00f3n y Colmenar de Oreja",
+                    "9 Km"
+                ]
+            }
+        ]
+    },
+    {
+        "url_route": "https://turismomadrid.es/es/rutas/nivel1/11.html",
+        "title": "Rutas de Senderismo",
+        "transport": "https://turismomadrid.es/media/com_mapas_ptur/images/iconos/icono-caminando-rutas.png",
+        "distance": "444,6 Km",
+        "time": "172 Horas",
+        "stages": "44 etapas",
+        "url_map_tour": "https://turismomadrid.es/images/rutas/mapa_Senderismo_2-01.jpg",
+        "description": "De norte a sur, de este a oeste, en zonas de monta\u00f1a, en v\u00edas verdes... la Comunidad de Madrid dispone de una red de sendas que recorre sus rincones rurales, los espacios naturales protegidos, las ca\u00f1adas y v\u00edas pecuarias y muchos m\u00e1s caminos. Prepara tu mapa, tus botas, tu mochila o tu bicicleta y recorre Madrid. Te esperan el aire puro, la naturaleza y tu instinto de aventurero.",
+        "maps_gpx": "/components/com_mapas_ptur/ficheros/Rutas-de-Senderismo.gpx",
+        "maps_kmz": "/components/com_mapas_ptur/ficheros/Rutas-de-Senderismo.kmz",
+        "list_stage": [
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/48.html?etapa=1",
+                "url_image_stage": "https://turismomadrid.es/images/rutas/12.1.1_Embalse_del_Atazar.jpg",
+                "info_rout": [
+                    "Ruta 1",
+                    "Senda del Genaro (GR-300)",
+                    "70 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/49.html?etapa=2",
+                "url_image_stage": "https://turismomadrid.es/images/1669384343335.jpg",
+                "info_rout": [
+                    "Ruta 2",
+                    "C\u00e1rcavas y espinos",
+                    "6,4 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/50.html?etapa=3",
+                "url_image_stage": "https://turismomadrid.es/images/Puerto_de_la_Morcuera_2_8000x3222.jpg",
+                "info_rout": [
+                    "Ruta 3",
+                    "Del puerto de la Morcuera a Alameda del Valle",
+                    "14,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/51.html?etapa=4",
+                "url_image_stage": "https://turismomadrid.es/images/DSC06784.jpg",
+                "info_rout": [
+                    "Ruta 4",
+                    "Cascadas del Purgatorio",
+                    "12 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/52.html?etapa=5",
+                "url_image_stage": "https://turismomadrid.es/images/12.5.3_Lagunas_de_Pen\u0303alara.jpg",
+                "info_rout": [
+                    "Ruta 5",
+                    "Del puerto de Cotos a la laguna Grande",
+                    "3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/53.html?etapa=6",
+                "url_image_stage": "https://turismomadrid.es/images/12/LaPedriza.jpg",
+                "info_rout": [
+                    "Ruta 6",
+                    "Remontando el r\u00edo Manzanares por La Pedriza",
+                    "3,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/54.html?etapa=7",
+                "url_image_stage": "https://turismomadrid.es/images/12/Centro_Visitantes_Cercedilla.jpg",
+                "info_rout": [
+                    "Ruta 7",
+                    "Valle de la Fuenfr\u00eda: calzadas romana y borb\u00f3nica",
+                    "4,9 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/55.html?etapa=8",
+                "url_image_stage": "https://turismomadrid.es/images/_GCC0726.jpg",
+                "info_rout": [
+                    "Ruta 8",
+                    "Pinares de Guadarrama",
+                    "14,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/56.html?etapa=9",
+                "url_image_stage": "https://turismomadrid.es/images/Silla_de_Felipe_II_DSC0360.JPG",
+                "info_rout": [
+                    "Ruta 9",
+                    "Monte Abantos",
+                    "5,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/57.html?etapa=10",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_Pinar_de_Abantos_DSC0660.JPG",
+                "info_rout": [
+                    "Ruta 10",
+                    "Pinar de Abantos",
+                    "9,9 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/58.html?etapa=11",
+                "url_image_stage": "https://turismomadrid.es/images/12/Vista_Silla_FelipeII.jpg",
+                "info_rout": [
+                    "Ruta 11",
+                    "La Herrer\u00eda y las Machotas",
+                    "18 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/59.html?etapa=12",
+                "url_image_stage": "https://turismomadrid.es/images/20.2._Mirador_del_Hondillo.I.JPG",
+                "info_rout": [
+                    "Ruta 12",
+                    "Los molinos del r\u00edo Perales",
+                    "7,3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/60.html?etapa=13",
+                "url_image_stage": "https://turismomadrid.es/images/12/Real_Cortijo.jpg",
+                "info_rout": [
+                    "Ruta 13",
+                    "Ruta de las Doce Calles",
+                    "18,3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/61.html?etapa=14",
+                "url_image_stage": "https://turismomadrid.es/images/12/Calle_Reina.jpg",
+                "info_rout": [
+                    "Ruta 14",
+                    "Paseos arbolados de los sotos hist\u00f3ricos de Aranjuez",
+                    "8,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/62.html?etapa=15",
+                "url_image_stage": "https://turismomadrid.es/images/3_Mar_de_Ont\u00edgola_Fuente_web_aves_de_aranjuez.jpg",
+                "info_rout": [
+                    "Ruta 15",
+                    "Reserva natural Mar de Ont\u00edgola-El Regajal",
+                    "0,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/63.html?etapa=16",
+                "url_image_stage": "https://turismomadrid.es/images/12/Laguna_de_San_Juan.jpg",
+                "info_rout": [
+                    "Ruta 16",
+                    "De Titulcia a la laguna de San Juan",
+                    "6,6 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/64.html?etapa=17",
+                "url_image_stage": "https://turismomadrid.es/images/12/Laguna_de_San_Juan_1.jpg",
+                "info_rout": [
+                    "Ruta 17",
+                    "De Titulcia a Chinch\u00f3n",
+                    "18,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/65.html?etapa=18",
+                "url_image_stage": "https://turismomadrid.es/images/Ruta_Sotos_de_Villamanrique_de_Tajo_DSC9506.JPG",
+                "info_rout": [
+                    "Ruta 18",
+                    "Los sotos de Villamanrique de Tajo",
+                    "4,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/66.html?etapa=19",
+                "url_image_stage": "https://turismomadrid.es/images/12/Parque_de_los_Cerros_Alcala\u03013.jpg",
+                "info_rout": [
+                    "Ruta 19",
+                    "Los Tarayes",
+                    "2,7 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/67.html?etapa=20",
+                "url_image_stage": "https://turismomadrid.es/images/_GCC2664.jpg",
+                "info_rout": [
+                    "Ruta 20",
+                    "Ecce-Homo",
+                    "12 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/68.html?etapa=21",
+                "url_image_stage": "https://turismomadrid.es/images/12/Parque_de_los_Cerros_Alcala\u03011.jpg",
+                "info_rout": [
+                    "Ruta 21",
+                    "Ruta del castillo \u00c1rabe",
+                    "4,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/69.html?etapa=22",
+                "url_image_stage": "https://turismomadrid.es/images/12/Cartuja_.jpg",
+                "info_rout": [
+                    "Ruta 22",
+                    "De Valdetorres a Talamanca",
+                    "10,9 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/87.html?etapa=23",
+                "url_image_stage": "https://turismomadrid.es/images/_GCC6179.JPG",
+                "info_rout": [
+                    "Ruta 23",
+                    "Riscos y collados de La Pedriza",
+                    "15,4 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/88.html?etapa=24",
+                "url_image_stage": "https://turismomadrid.es/images/ParquePolvoranca_shutter_Luis-M-Solan.jpg",
+                "info_rout": [
+                    "Ruta 24",
+                    "La Polvoranca y Bosque Sur",
+                    "12,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/89.html?etapa=25",
+                "url_image_stage": "https://turismomadrid.es/images/5._Boadilla-Torrelaguna.jpg",
+                "info_rout": [
+                    "Ruta 25",
+                    "Monte de Boadilla",
+                    "14,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/91.html?etapa=26",
+                "url_image_stage": "https://turismomadrid.es/images/02Ruta_de_las_Vegas3.jpg",
+                "info_rout": [
+                    "Ruta 26",
+                    "De Ciempozuelos al Soto Guti\u00e9rrez",
+                    "16,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/94.html?etapa=27",
+                "url_image_stage": "https://turismomadrid.es/images/04Ruta_de_las_Vegas1.png",
+                "info_rout": [
+                    "Ruta 27",
+                    "De Ciempozuelos a la vega del r\u00edo Jarama",
+                    "8,3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/96.html?etapa=28",
+                "url_image_stage": "https://turismomadrid.es/images/bUTARQUE.jpg",
+                "info_rout": [
+                    "Ruta 28",
+                    "Arroyo Butarque",
+                    "10,6 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/97.html?etapa=29",
+                "url_image_stage": "https://turismomadrid.es/images/ResizeRuta_Cerros_y_Cultivos4.jpg",
+                "info_rout": [
+                    "Ruta 29",
+                    "Cerros y cultivos de Ciempozuelos",
+                    "8,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/102.html?etapa=30",
+                "url_image_stage": "https://turismomadrid.es/images/Contenido/descubre/buitrago/F10.jpg",
+                "info_rout": [
+                    "Ruta 30",
+                    "Senda de las Gari\u00f1as",
+                    "6,5 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/103.html?etapa=31",
+                "url_image_stage": "https://turismomadrid.es/images/Panorama_sin_t\u00edtulo2.jpg",
+                "info_rout": [
+                    "Ruta 31",
+                    "El Bosque de Buitrago",
+                    "10,1 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/105.html?etapa=32",
+                "url_image_stage": "https://turismomadrid.es/images/Foto_Ruta_Najarra.png",
+                "info_rout": [
+                    "Ruta 32",
+                    "La Najarra desde el puerto de la Morcuera",
+                    "7,6 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/108.html?etapa=33",
+                "url_image_stage": "https://turismomadrid.es/images/Maliciosa1.jpg",
+                "info_rout": [
+                    "Ruta 33",
+                    "La Maliciosa por la cara sur de Guadarrama",
+                    "10,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/109.html?etapa=34",
+                "url_image_stage": "https://turismomadrid.es/images/CanchoGordo0_1.jpg",
+                "info_rout": [
+                    "Ruta 34",
+                    "Cancho Gordo desde La Cabrera",
+                    "4,3 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/110.html?etapa=35",
+                "url_image_stage": "https://turismomadrid.es/images/DSC09522.jpg",
+                "info_rout": [
+                    "Ruta 35",
+                    "El Nevero, el balc\u00f3n del valle del Lozoya",
+                    "7,4 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/111.html?etapa=36",
+                "url_image_stage": "https://turismomadrid.es/images/Trigo2.jpg",
+                "info_rout": [
+                    "Ruta 36",
+                    "El Mont\u00f3n de Trigo",
+                    "9,8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/112.html?etapa=37",
+                "url_image_stage": "https://turismomadrid.es/images/penoota1.jpg",
+                "info_rout": [
+                    "Ruta 37",
+                    "La Pe\u00f1ota desde el alto del Le\u00f3n",
+                    "13 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/113.html?etapa=38",
+                "url_image_stage": "https://turismomadrid.es/images/DSC07267.jpg",
+                "info_rout": [
+                    "Ruta 38",
+                    "El mirador de las Canchas, el balc\u00f3n de la sierra de Guadarrama",
+                    "7,7 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/114.html?etapa=39",
+                "url_image_stage": "https://turismomadrid.es/images/Machotas_-_5.jpg",
+                "info_rout": [
+                    "Ruta 39",
+                    "Las Machotas desde la Silla de Felipe II",
+                    "8,6 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/115.html?etapa=40",
+                "url_image_stage": "https://turismomadrid.es/images/IMG_6484.jpg",
+                "info_rout": [
+                    "Ruta 40",
+                    "Ruta circular de los Siete Picos",
+                    "8,7 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/119.html?etapa=41",
+                "url_image_stage": "https://turismomadrid.es/images/_GCC5969.jpg",
+                "info_rout": [
+                    "Ruta 41",
+                    "Cascada del Cancho",
+                    "1,2 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/120.html?etapa=42",
+                "url_image_stage": "https://turismomadrid.es/images/_CMK3335_8000x5333.jpg",
+                "info_rout": [
+                    "Ruta 42",
+                    "Presa del Pradillo y valle de la Angostura",
+                    "5,7 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/121.html?etapa=43",
+                "url_image_stage": "https://turismomadrid.es/images/CHORRERA_DE_SAN_MAMES_2022__MG_5814-1Javier_Blanquer_Comunidad_de_Madrid.jpg",
+                "info_rout": [
+                    "Ruta 43",
+                    "Chorrera de San Mam\u00e9s",
+                    "8 Km"
+                ]
+            },
+            {
+                "url_stage": "https://turismomadrid.es/es/rutas/nivel2/122.html?etapa=44",
+                "url_image_stage": "https://turismomadrid.es/images/H42F_768x288_MALICIOSA.jpg",
+                "info_rout": [
+                    "Ruta 44",
+                    "Ascenso a La Maliciosa desde el Valle de la Barranca",
+                    "9,4 Km"
+                ]
+            }
+        ]
+    }
+]
