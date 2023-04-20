@@ -7,23 +7,17 @@ import re
 import scrapy
 from os import path, getcwd
 from turismo_madrid.items import TurismoMadridItem
-from scrapy.utils.response import open_in_browser
 from turismo_madrid.utils import extractor_info_with_regex
-from turismo_madrid.constants import constants_and_all_xpath
 from bs4 import BeautifulSoup
 
 
-class TurismoMadridSpiderSpider(scrapy.Spider):
+class TurismoMadridSpider(scrapy.Spider):
     """
     Esta araña de Scrapy se encarga de extraer información de la página web de itinerarios
-    turísticos de Madrid. La información extraída incluye el nombre del itinerario, la
-    descripción, la duración, los lugares de interés y los precios.
-
-    Attributes:
-        name (str): El nombre de la araña.
-        start_urls (list): La lista de URLs de inicio para el web scraping.
-        custom_settings (dict): Un diccionario con las configuraciones personalizadas para
-            la araña, como el tiempo de espera y la concurrencia.
+    turísticos de Madrid. La información extraída incluye 3 fases:
+        * Rutas: sendero de lugares a conocer por etapas como turista.
+        * Etapas: un camino lleno de itinerarios.
+        * itinerarios: un paso a paso de lugares a conocer.
     """
 
     name = "turismo_madrid_spider"
@@ -38,20 +32,10 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
 
     base_url = "https://turismomadrid.es"
 
-    def __init__(self, *args, **kwargs):
-        super(TurismoMadridSpiderSpider, self).__init__(*args, **kwargs)
-
-        self.output_folder = "raw_data"
-        self.output_filename = "turismo_madrid.csv"
-
-        self.path_output = constants_and_all_xpath.path_output
-        self.output_folder_name = constants_and_all_xpath.output_folder_name
-        self.output_filename_name = constants_and_all_xpath.output_filename_name
-        self.output_filename_refine_name = (
-            constants_and_all_xpath.output_filename_refine_name
-        )
-
     def parse(self, response):
+        """
+        Funcion para raspar los itinerarios
+        """
         all_routes = response.xpath('//a[contains(@class, "enlace-ruta")]')
         if not all_routes:
             self.logger.warning("No existen enlaces para realizar la busqueda")
@@ -83,6 +67,9 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
             )
 
     def parse_rout_level_1(self, response):
+        """
+        Funcion para raspar las rutas
+        """
         items_main = response.meta.get("items_main")
 
         all_stage = response.xpath(
@@ -94,8 +81,8 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
         items_main["url_map_tour"] = self.base_url + div_info.xpath(".//img/@src").get()
         items_main["description"] = div_info.xpath(".//p/text()").get()
         maps = div_info.xpath(".//a/@href").getall()
-        items_main["maps_gpx"] = maps[-2]
-        items_main["maps_kmz"] = maps[-1]
+        items_main["maps_gpx"] = self.base_url + maps[-2]
+        items_main["maps_kmz"] = self.base_url + maps[-1]
 
         if len(maps) == 3:
             items_main["more_info"] = maps[-3]
@@ -122,9 +109,17 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
             )
 
             info_rout = next_info[1].xpath(".//text()").getall()
-            items_stage["info_rout"] = [
-                data.strip() for data in info_rout if data.strip() != ""
-            ]
+
+            info_all = [data.strip() for data in info_rout if data.strip() != ""]
+            if len(info_all) == 3:
+                items_stage["info_rout"] = info_all[0]
+                items_stage["info_title"] = info_all[1]
+                items_stage["info_distance"] = info_all[2]
+            else:
+                items_stage["info_rout"] = info_all[0]
+                items_stage["info_title"] = info_all[1]
+                items_stage["info_distance"] = ""
+
             # stage
             list_stage.append(items_stage)
 
@@ -139,15 +134,13 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
                     "items_main": items_main,
                 },
             )
-        # yield items_main
-
-        # for link in items_main["list_stage"]:
-        #    print("link", link["url_stage"])
 
     def parse_rout(self, response):
+        """
+        Funcion para raspar los itinerarios en las rutas.
+        """
         url = response.meta.get("url")
         items_main = response.meta.get("items_main")
-        print("voy")
 
         third_items_extractor = {}
         div_description = response.xpath('//div[@class="item_fields"]/div/div[p]')
@@ -155,8 +148,21 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
         maps_gpx_kmz_stage = div_description.xpath(".//a/@href").getall()
 
         third_items_extractor["description"] = description_stage
-        third_items_extractor["maps_gpx"] = maps_gpx_kmz_stage[-2]
-        third_items_extractor["maps_kmz"] = maps_gpx_kmz_stage[-1]
+        if maps_gpx_kmz_stage:
+            if len(maps_gpx_kmz_stage) == 2:
+                third_items_extractor["maps_gpx"] = (
+                    self.base_url + maps_gpx_kmz_stage[-2]
+                )
+                third_items_extractor["maps_kmz"] = (
+                    self.base_url + maps_gpx_kmz_stage[-1]
+                )
+            else:
+                third_items_extractor["maps_gpx"] = ""
+                third_items_extractor["maps_kmz"] = ""
+
+        else:
+            third_items_extractor["maps_gpx"] = ""
+            third_items_extractor["maps_kmz"] = ""
 
         # Itinerarios
         all_info_itinerarios = response.xpath('//div[@class="item_fields"]/a')
@@ -173,14 +179,21 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
 
         third_items_extractor["info_itinerarios"] = list_itinerario
 
+        div_description = response.xpath('//div[@class="item_fields"]/div/div[p]')
+        description_stage = div_description.xpath(".//p/text()").get()
+        maps_gpx_kmz_stage = div_description.xpath(".//a/@href").getall()
+
         for stages in items_main["list_stage"]:
             if url == stages["url_stage"]:
+                stages["stage_description"] = description_stage
+                if maps_gpx_kmz_stage:
+                    stages["stage_maps_gpx"] = self.base_url + maps_gpx_kmz_stage[-2]
+                    stages["stage_maps_kmz"] = self.base_url + maps_gpx_kmz_stage[-1]
+                else:
+                    stages["stage_maps_gpx"] = ""
+                    stages["stage_maps_kmz"] = ""
                 stages["info_itinerarios"] = third_items_extractor["info_itinerarios"]
                 for url_itinerario in stages["info_itinerarios"]:
-                    print(
-                        'url_itinerario["url_itinerario"]',
-                        url_itinerario["url_itinerario"],
-                    )
                     yield scrapy.Request(
                         url=url_itinerario["url_itinerario"],
                         callback=self.parse_itineraty,
@@ -193,15 +206,13 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
         # yield items_main
 
     def parse_itineraty(self, response):
+        """
+        Funcion para raspar los lugares y los itinerarios
+        """
         url = response.meta.get("url_itineraty")
-        print("voy parse_itineraty", url)
         items_main = response.meta.get("items_main")
 
         list_place = []
-
-        # dict_place["title"] = response.xpath(
-        #    '//h1[@class="nivel1-titulo"]/text()'
-        # ).get()
 
         all_info_pase_to_pase = response.xpath('//*[@id="component"]/div/div[6]/div')
         for one_to_one in all_info_pase_to_pase:
@@ -215,22 +226,27 @@ class TurismoMadridSpiderSpider(scrapy.Spider):
             dict_place["titulo_place"] = titulo_place[0]
 
             description_place_all = one_to_one.xpath("./div[1]/div/p").getall()
+            description_place = ""
             for string in description_place_all:
                 soup = BeautifulSoup(string, "html.parser")
                 description_place = soup.get_text()
 
             dict_place["description_place"] = description_place
+            if len(information) == 2:
+                all_main_image = information[1]
+                match = re.search(r"url\('(.+?)'\)", all_main_image)
+                url_main_image = match.group(1)
+            else:
+                url_main_image = ""
 
-            all_main_image = information[1]
-            match = re.search(r"url\('(.+?)'\)", all_main_image)
-            url_main_image = match.group(1)
             dict_place["url_main_image"] = url_main_image
 
             list_place.append(dict_place)
 
         for stages in items_main["list_stage"]:
-            for iter in stages["info_itinerarios"]:
-                if url == iter["url_itinerario"]:
-                    iter["place"] = list_place
+            if "info_itinerarios" in stages:
+                for itinerarios in stages["info_itinerarios"]:
+                    if url == itinerarios["url_itinerario"]:
+                        itinerarios["place"] = list_place
 
         yield items_main
