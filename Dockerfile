@@ -12,5 +12,6 @@ ENV PATH="/opt/venv/bin:$PATH"
 WORKDIR /app
 COPY ./src /app
 COPY ./test /app/test
+COPY ./data /app/data
 
 CMD /opt/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8080

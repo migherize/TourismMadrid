@@ -12,7 +12,7 @@ services:
       - MONGO_INITDB_ROOT_USERNAME=admin
       - MONGO_INITDB_ROOT_PASSWORD=password
     volumes:
-      - ./mongo-data:/data/db
+      - ./data/mongo-data:/data/db
 
   mongo-express:
     image: mongo-express
@@ -37,6 +37,7 @@ services:
     volumes:
       - "./src/:/app"
       - "./test/:/app/test"
+      - "./data/:/app/data"
 
     ports:
       - "8080:8080"

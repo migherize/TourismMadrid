@@ -2,3 +2,4 @@ pymongo
 Scrapy==2.8.0
 fastapi==0.73.0
 uvicorn==0.17.5
+bs4==0.0.1

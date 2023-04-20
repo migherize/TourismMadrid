@@ -28,5 +28,10 @@ def crawler():
     os.chdir(project_path)
 
     subprocess.run(spider_args, check=True)
+    os.chdir(os.getcwd())
+    return {"message": "Spider ejecutado exitosamente"}
 
+
+@app.get("/Get-RutasMadrid")
+def get_all():
     return {"message": "Spider ejecutado exitosamente"}
