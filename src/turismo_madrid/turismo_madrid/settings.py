@@ -1,5 +1,3 @@
-from turismo_madrid.constants import constants_and_all_xpath
-
 # Scrapy settings for turismo_madrid project
 #
 # For simplicity, this file contains only settings considered important or
@@ -94,5 +92,6 @@ REQUEST_FINGERPRINTER_IMPLEMENTATION = "2.7"
 TWISTED_REACTOR = "twisted.internet.asyncioreactor.AsyncioSelectorReactor"
 FEED_EXPORT_ENCODING = "utf-8"
 
-MONGO_URI = "mongodb://admin:password@mongodb:27017/"
+#MONGO_URI = "mongodb://admin:password@mongodb:27017/"
+MONGO_URI = "mongodb://admin:password@localhost:27017/"
 MONGO_DATABASE = "RutasMadrid"

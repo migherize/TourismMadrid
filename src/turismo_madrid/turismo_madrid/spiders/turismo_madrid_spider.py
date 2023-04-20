@@ -41,7 +41,9 @@ class TurismoMadridSpider(scrapy.Spider):
             self.logger.warning("No existen enlaces para realizar la busqueda")
             return None
 
-        self.logger.info("Existen enlaces para realizar la busqueda")
+        self.logger.info(
+            "Existen enlaces para realizar la busqueda: %s", len(all_routes)
+        )
 
         for rout_table in all_routes:
             items = TurismoMadridItem()
@@ -123,9 +125,9 @@ class TurismoMadridSpider(scrapy.Spider):
             # stage
             list_stage.append(items_stage)
 
-        items_main["list_stage"] = list_stage
+        items_main["list_stages"] = list_stage
 
-        for stages in items_main["list_stage"]:
+        for stages in items_main["list_stages"]:
             yield scrapy.Request(
                 url=stages["url_stage"],
                 callback=self.parse_rout,
@@ -183,7 +185,7 @@ class TurismoMadridSpider(scrapy.Spider):
         description_stage = div_description.xpath(".//p/text()").get()
         maps_gpx_kmz_stage = div_description.xpath(".//a/@href").getall()
 
-        for stages in items_main["list_stage"]:
+        for stages in items_main["list_stages"]:
             if url == stages["url_stage"]:
                 stages["stage_description"] = description_stage
                 if maps_gpx_kmz_stage:
@@ -243,7 +245,7 @@ class TurismoMadridSpider(scrapy.Spider):
 
             list_place.append(dict_place)
 
-        for stages in items_main["list_stage"]:
+        for stages in items_main["list_stages"]:
             if "info_itinerarios" in stages:
                 for itinerarios in stages["info_itinerarios"]:
                     if url == itinerarios["url_itinerario"]:
