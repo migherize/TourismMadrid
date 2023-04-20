@@ -11,5 +11,6 @@ COPY --from=BUILDER /opt/venv /opt/venv
 ENV PATH="/opt/venv/bin:$PATH"
 WORKDIR /app
 COPY ./src /app
+COPY ./test /app/test
 
 CMD /opt/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8080
